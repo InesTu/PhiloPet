@@ -1,0 +1,79 @@
+/* General Card Styling */
+.pet-card {
+  
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  
+  width: 303px;
+  height: 350px; /* Fixed height for uniformity */
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  }
+  
+  .pet-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Card Image Styling */
+  .pet-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 2px solid #eaeaea;
+  }
+
+
+.pet-carousel {
+  max-height: 200px;
+  overflow: hidden;
+}
+  
+
+.card-subtitle {
+    overflow: auto;
+    height: 20px;
+    color: #A5B68D;
+}
+  
+ 
+  
+  /* Location Text */
+  .card-text {
+    color: #A5B68D;
+    margin-top: 0.5rem;
+    font-size: 0.85rem;
+  }
+  
+
+  
+  /* Ad Posted Date */
+  .posted-date {
+    font-size: 0.75rem;
+    color: #A5B68D;
+    text-align: right;
+  }
+
+  .card-body{
+    
+    height: 240px;
+    align-content: space-around;
+    bottom: 0; /* Stick to the bottom */
+    width: 100%; /* Full width of the card */
+    
+    
+  }
+  
+
+  .icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+    color: #ff6347;
+  }

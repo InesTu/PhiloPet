@@ -1,0 +1,29 @@
+
+
+
+.title{
+    font-size: x-large;
+    font-weight: 700;
+    color: #4b7a84;
+}
+
+.container-imagecard{
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-between;
+   
+}
+
+.card-text{
+    color: black;
+    text-align: justify;
+}
+.details{
+    width: 292px !important;  
+    padding: 16px !important;
+    height: 710px !important;
+    
+    margin-right: 130px !important;
+    border: 2px #4b7a84 solid !important;
+    margin-bottom: 35px;
+}
