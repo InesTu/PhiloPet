@@ -311,11 +311,6 @@ Developed and integrated:
 
 ---
 
-## 👩‍💻 Author
-
-**Nour Guidara**
-
-Software Engineering Student  
 
 ---
 
